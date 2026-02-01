@@ -5,10 +5,14 @@ var WildRydes = window.WildRydes || {};
 (function scopeWrapper($) {
     var signinUrl = '/signin.html';
 
-    var poolData = {
+
+      var poolData = {
         UserPoolId: _config.cognito.userPoolId,
         ClientId: _config.cognito.userPoolClientId
     };
+
+
+    
 
     var userPool;
 
